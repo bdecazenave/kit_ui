@@ -1,0 +1,306 @@
+
+.card{
+   display: inline-grid;
+   width:250px;
+   border-radius: 15px 50px;
+   margin: 20px;
+
+}
+
+hr.rounded{
+  border-top: 2px solid #A6978b;
+  border-radius: 5px;
+}
+
+.container{
+  width: 250px;
+  text-align: center;
+  border-radius: 15px 50px;
+}
+
+.title-heading{
+  text-decoration: underline;
+}
+
+.primary{
+  background-color: #a6978b;
+}
+
+.secondary{
+  background-color: #a77635;
+}
+
+.dark{
+  background-color: #343A40;
+}
+
+.medium{
+  background-color: #6C757D;
+}
+
+.light{
+  background-color: #DEE2E6;
+}
+
+.heading{
+  font-family: 'Manrope', sans-serif;
+}
+
+.regular{
+  font-family: 'Nunito', sans-serif;
+}
+
+.lead{
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+h1{
+  font-family: 'Manrope', sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h2{
+  font-family: 'Manrope', sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h3{
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h4{
+  font-family: 'Manrope', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h5{
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h6{
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size : 16px;
+}
+
+blockquote {
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+  font-size : 14px;
+  border-left: 4px solid #a77635;
+  padding-left: 8px;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  list-style-type: square;
+  font-family: 'Nunito', sans-serif;
+}
+
+ol{
+  font-family: 'Nunito', sans-serif;
+}
+
+.generic-buttons {
+  display: inline-block;
+}
+
+.welcome {
+  color : #A6978b;
+}
+
+/* les propriétés globales des boutons */
+.btn {
+  color:white;
+  font-size: 18px;
+  width: 250px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 10px;
+}
+
+/* les propriétés globales des boutons outline i.e sans fond et avec un border color */
+.btn-outline{
+  background-color: #ffffff;
+  color : grey;
+  border: 2px solid;
+}
+
+.btn-lg{
+  font-size: 23px;
+  width:280px;
+  height:40px;
+}
+
+.btn-sm{
+  font-size: 10px;
+  width:100px;
+  height:40px;
+}
+
+.btn-sm{
+
+}
+
+/* les propriétés des boutons danger*/
+.btn-danger {
+  background-color: #d84654;
+}
+
+.btn-outline-danger {
+  border-color: #d84654;
+}
+
+.btn-danger:hover{
+  background-color: #da5869;
+}
+
+.btn-outline-danger:hover{
+  background-color: #d84654;
+  color: white;
+}
+
+/* les propriétés des boutons warning*/
+.btn-warning {
+background-color:#f99c39;
+}
+
+.btn-outline-warning {
+  border-color: #f99c39;
+}
+
+.btn-warning:hover{
+  background-color: #f7ad64;
+}
+
+.btn-outline-warning:hover{
+  background-color: #f99c39;
+  color: white;
+}
+
+/* les propriétés des boutons info*/
+.btn-info{
+  background-color: #00a896;
+}
+
+.btn-outline-info {
+  border-color: #00a896;
+}
+
+.btn-info:hover{
+  background-color: #02c39a;
+}
+
+.btn-outline-info:hover{
+  background-color: #00a896;
+  color: white;
+}
+
+/* les propriétés des boutons primary*/
+.btn-primary {
+  background-color:#04bef1;
+}
+
+.btn-outline-primary {
+  border-color: #04bef1;
+}
+
+.btn-primary:hover{
+  background-color: #22ccfc;
+}
+
+.btn-outline-primary:hover{
+  background-color: #04bef1;
+  color: white;
+}
+
+/* les propriétés des boutons success*/
+.btn-success{
+  background-color: #3fa34d;
+}
+
+.btn-outline-success {
+  border-color: #3fa34d;
+}
+
+.btn-success:hover{
+  background-color: #5bba6f;
+}
+
+.btn-outline-success:hover{
+  background-color: #3fa34d;
+  color: white;
+}
+
+
+input[type=text]{
+  width: 30%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+}
+
+input[type=password]{
+  width: 30%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
